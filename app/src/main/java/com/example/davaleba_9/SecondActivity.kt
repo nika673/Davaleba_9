@@ -9,6 +9,7 @@ import android.widget.TextView
 class SecondActivity : AppCompatActivity() {
     private lateinit var textView1: TextView
     private lateinit var textView2: TextView
+
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -18,8 +19,6 @@ class SecondActivity : AppCompatActivity() {
         textView2 = findViewById(R.id.textView3)
         textView2.movementMethod = LinkMovementMethod.getInstance()
         textView1.text = intent.getStringExtra("NAME")
-
-
 
     }
 }
