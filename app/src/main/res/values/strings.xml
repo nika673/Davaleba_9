@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Davaleba_9</string>
+    <string name="notification_text">გამარჯობა Nikoloz,თქვენ გაქვთ დაგეგმილი გამოცდა.გამოცდა: კალკულუსი I – საკონტროლო წერა #2 – 04.12.2022 – 15:00 საათი.</string>
+    <string name="link"> <a href="https://btu.examjet.net"> პორტალის ლინკი </a></string>
+</resources>
